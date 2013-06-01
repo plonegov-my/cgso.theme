@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--start main rule, only theme if #visual-portal-wrapper exist -->
+<rules
+    xmlns="http://namespaces.plone.org/diazo"
+    xmlns:css="http://namespaces.plone.org/diazo/css"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    css:if-content="#visual-portal-wrapper">
+
+    <theme href="index.html"/>
+
+    <!--HEAD SECTION-->
+    <!-- Drop styles in the head - these are added back by including them from Plone -->
+    <drop theme="/html/head/style | /html/head/script | /html/head/link | /html/head/title" />
+    <prepend theme="/html/head" content="/html/head/base | /html/head/link | /html/head/style | /html/head/script | /html/head/meta | /html/head/title" />
+
+    <merge theme="/html/body" content="/html/body" attributes="class"/>
+    <merge theme="/html/body" content="/html/body" attributes="dir"/>
+    <append css:theme="body" css:content="#plone-analytics"/>
+
+</rules>
