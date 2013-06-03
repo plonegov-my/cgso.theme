@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="Sunburst Theme">
+    <object name="cgso_theme"
+        meta_type="Filesystem Directory View"
+        directory="cgso.theme:skins/cgso_theme"/>
+    <skin-path name="*">
+        <layer name="cgso_theme"
+                insert-after="custom"/>
+    </skin-path>
+</object>

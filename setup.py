@@ -33,6 +33,7 @@ setup(name='cgso.theme',
           'collective.dexteritytextindexer',
           'plone.app.multilingual',
           'plone.multilingualbehavior',
+          'z3c.jbot'
           # -*- Extra requirements: -*-
       ],
       extras_require={

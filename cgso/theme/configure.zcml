@@ -16,7 +16,7 @@
 
     <browser:jbot
         directory="jbot"
-        layer=".interfaces.IThemeSpecific" />
+        layer=".interfaces.IProductSpecific" />
 
     <cmf:registerDirectory name="cgso_theme"/>
 

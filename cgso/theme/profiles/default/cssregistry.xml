@@ -10,4 +10,12 @@
 
     <!-- -*- extra stuff goes here -*- -->
 
+
+ <stylesheet title=""
+     id="++theme++cgso.theme/css/public.css"
+    media="screen" rel="stylesheet" rendering="import"
+    cacheable="True" compression="safe" cookable="True"
+    enabled="1" expression="request/HTTP_X_THEME_ENABLED|nothing"/>
+
+
 </object>
