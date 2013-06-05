@@ -23,8 +23,8 @@
         <replace css:theme-children="#portal-searchbox"
             css:content-children="#portal-searchbox"/>
 
-        <replace css:theme-children="#portal-logo"
-            css:content-children="#portal-logo"/>
+        <replace css:theme="#portal-logo"
+            css:content="#portal-logo" attributes="href"/>
 
         <replace css:theme-children="#portal-globalnav"
             css:content-children="#portal-globalnav"/>
@@ -37,6 +37,9 @@
 
         <replace css:theme-children="#portal-siteactions"
             css:content-children="#portal-siteactionst"/>
+
+        <replace css:theme-children="#portal-languageselector"
+            css:content-children="#portal-languageselector"/>
 
     </rules>
 </rules>
