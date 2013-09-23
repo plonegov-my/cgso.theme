@@ -20,9 +20,7 @@
 
 body {
     font: 100% Arial, FreeSans, sans-serif;
-    background: #2AA3B4 url(++theme++cgso.theme/img/cgso-background.jpg) no-repeat;
-    background-position:bottom;
-    background-attachment:fixed;
+    background: White;
     color: Black;
     /* width: 58em; margin: 1em auto; */
 }

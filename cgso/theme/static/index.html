@@ -5,33 +5,38 @@
 
    <body>
       <div id="visual-portal-wrapper">
-         <div id="portal-top" class="row">
-            <div class="cell width-full position-0">
-               <div id="portal-header">
+         <div id="portal-top-wrapper">
+            <div id="portal-top" class="row">
+               <div class="cell width-full position-0">
+                  <div id="portal-header">
 
-                  <div id="portal-personaltools-wrapper">
+                     <div id="portal-personaltools-wrapper">
+                     </div>
+
+                     <ul id="portal-globalnav"></ul>
+                     <div id="portal-searchbox">
+                     </div>
+
+                     <a id="portal-logo" title="Site" accesskey="1" href="http://localhost:8080/Plone">
+                     </a>
+
+
                   </div>
-                  <ul id="portal-languageselector">
-                  </ul>
-
-                  <ul id="portal-globalnav"></ul>
-
-                  <div id="portal-searchbox">
-                  </div>
-
-                  <a id="portal-logo">
-                     <img src="cgsologo.png"/>
-                  </a>
-
                </div>
             </div>
-         </div>
-         <div id="portal-columns" class="row">
+            <div id="portlets-in-header"></div>
          </div>
 
+         <div id="portal-columns-wrapper">
+            <div id="portal-columns" class="row">
+            </div>
+         </div>
 
          <div id="portal-footer-wrapper" class="row">
             <div class="cell width-full position-0">
+
+               <div id="portlets-footer"></div>
+
                <div id="portal-footer">
                </div>
 
@@ -45,7 +50,6 @@
          </div>
 
          <div class="visualClear"/>
-
       </div>
    </body>
 </html>

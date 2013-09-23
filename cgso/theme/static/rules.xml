@@ -23,8 +23,11 @@
         <replace css:theme-children="#portal-searchbox"
             css:content-children="#portal-searchbox"/>
 
+        <replace css:theme="#portlets-in-header" css:content="#portlets-in-header"/>
+        <after css:theme="#portlets-in-header" css:content=".manageInHeaderPortletsLink"/>
+
         <replace css:theme="#portal-logo"
-            css:content="#portal-logo" attributes="href"/>
+            css:content="#portal-logo"/>
 
         <replace css:theme-children="#portal-globalnav"
             css:content-children="#portal-globalnav"/>
@@ -36,10 +39,11 @@
             css:content-children="#portal-colophon"/>
 
         <replace css:theme-children="#portal-siteactions"
-            css:content-children="#portal-siteactionst"/>
+            css:content-children="#portal-siteactions"/>
 
-        <replace css:theme-children="#portal-languageselector"
-            css:content-children="#portal-languageselector"/>
+        <replace css:theme="#portal-footer" css:content="#portal-footer"/>
+        <replace css:theme="#portlets-footer" css:content="#portlets-footer"/>
+        <after css:theme="#portlets-footer" css:content=".manageFooterPortletsLink"/>
 
     </rules>
 </rules>

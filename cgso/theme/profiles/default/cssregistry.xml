@@ -18,12 +18,11 @@
     enabled="1" expression="request/HTTP_X_THEME_ENABLED|nothing"/>
 
  <stylesheet title=""
-     id="++theme++cgso.theme/css/main.css"
+     id="++theme++cgso.theme/css/style.css"
     media="screen" rel="stylesheet" rendering="import"
     cacheable="True" compression="safe" cookable="True"
     insert-after="++theme++cgso.theme/css/public.css"
     enabled="1" expression="request/HTTP_X_THEME_ENABLED|nothing"/>
-
 
 
 </object>

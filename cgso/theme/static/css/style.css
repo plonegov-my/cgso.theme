@@ -1,0 +1,80 @@
+/* style.css */
+
+body {
+    background: #2AA3B4 url(++theme++cgso.theme/img/cgso-background.jpg) no-repeat;
+    background-position:bottom;
+    background-attachment:fixed;
+}
+
+#visual-portal-wrapper {
+    background: #fff;
+    width:1140px;
+    margin:0 auto;
+}
+
+a#portal-logo {
+    background: url(../img/cgsologo.png) top left no-repeat transparent;
+    text-indent: -9999px;
+    display: block;
+    height: 100px;
+    margin-top: 10px;
+
+}
+
+
+//all below are default plonegovmy
+
+#portal-columns-wrapper {
+    width:1080px;
+    margin:0 auto;
+}
+
+#content {
+    padding-top:20px;
+}
+
+#portlets-in-header {
+    margin-bottom:20px;
+}
+
+/* colorscheme */
+
+
+#portal-globalnav, #portal-globalnav li a, #portal-globalnav .selected a:hover {
+    background: #444;
+    color: #fff;
+}
+
+#portal-globalnav .selected a, #portal-globalnav a:hover {
+    background: #333;
+    color: #fff;
+}
+
+
+#portal-footer, #portal-footer a, #portal-footer a:hover {
+    background: #444;
+    color: #fff;
+}
+
+#portal-footer-wrapper, #portal-footer-wrapper a, #portal-footer-wrapper a:hover {
+    background: #444;
+    color: #fff;
+}
+
+dl.portlet dt, dl.portlet dt a, dl.portlet dt a:hover {
+    background: #444;
+    color: #fff;
+}
+
+.unslider-slide-content {
+    background:rgba(0,0,0,0.5);
+    color:#fff;
+    position:relative;
+    top:20%;
+}
+
+.unslider-slide-content a {
+    color: #fff;
+}
+
+
