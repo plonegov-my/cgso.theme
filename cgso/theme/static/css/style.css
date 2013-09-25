@@ -1,28 +1,10 @@
 /* style.css */
 
 body {
-    background: #2AA3B4 url(++theme++cgso.theme/img/cgso-background.jpg) no-repeat;
-    background-position:bottom;
-    background-attachment:fixed;
+    background-image: url('../img/bg.jpg');
+    background-repeat: repeat-x;
+    background-color: #fff;
 }
-
-#visual-portal-wrapper {
-    background: #fff;
-    width:1140px;
-    margin:0 auto;
-}
-
-a#portal-logo {
-    background: url(../img/cgsologo.png) top left no-repeat transparent;
-    text-indent: -9999px;
-    display: block;
-    height: 100px;
-    margin-top: 10px;
-
-}
-
-
-//all below are default plonegovmy
 
 #portal-columns-wrapper {
     width:1080px;
