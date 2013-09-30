@@ -8,6 +8,7 @@
     css:if-content="#visual-portal-wrapper">
 
     <rules css:if-content="#visual-portal-wrapper">
+        <theme href="homepage.html" css:if-content=".portaltype-cgso-homepage-homepage"/>
         <theme href="index.html"/>
         <!--HEAD SECTION-->
         <!-- Drop styles in the head - these are added back by including them from Plone -->
@@ -33,7 +34,28 @@
             css:content-children="#portal-globalnav"/>
 
         <replace css:theme-children="#portal-columns"
-            css:content-children="#portal-columns"/>
+            css:content-children="#portal-columns" css:if-not-content=".portaltype-cgso-homepage-homepage"/>
+
+        <rules css:if-content=".portaltype-cgso-homepage-homepage">
+
+        <replace css:theme-children="#viewlet-above-content" css:content-children="#viewlet-above-content"/>
+        <replace css:theme-children="#kssPortalMessage" css:content-children="#kssPortalMessage"/>
+        <replace css:theme="#edit-bar" css:content="#edit-bar"/>
+        <replace css:theme-children="#viewlet-above-content-title" css:content-children="#viewlet-above-content-title"/>
+        <replace css:theme-children=".documentFirstHeading" css:content-children=".documentFirstHeading"/>
+        <replace css:theme-children="#viewlet-below-content-title" css:content-children="#viewlet-below-content-title"/>
+        <replace css:theme-children="#viewlet-above-content-body" css:content-children="#viewlet-above-content-body"/>
+        <replace css:theme-children=".homepage-container1" css:content-children=".homepage-container1"/>
+        <drop css:content="#portal-searchbox .searchSection"/>
+        <replace css:theme-children=".homepage-searchbox" css:content-children="#portal-searchbox"/>
+        <replace css:theme-children=".homepage-links-above" css:content-children=".homepage-links-above"/>
+        <replace css:theme-children="#viewlet-below-content-body" css:content-children="#viewlet-below-content-body"/>
+        <replace css:theme-children="#viewlet-below-content" css:content-children="#viewlet-below-content"/>
+        <replace css:theme-children="#portal-columns" css:content-children="#portal-columns" css:if-not-content=".template-view"/>
+        <replace css:theme-children="" css:content-children=""/>
+        </rules>
+
+
 
         <replace css:theme-children="#portal-colophon"
             css:content-children="#portal-colophon"/>
@@ -45,5 +67,5 @@
         <replace css:theme="#portlets-footer" css:content="#portlets-footer"/>
         <after css:theme="#portlets-footer" css:content=".manageFooterPortletsLink"/>
 
-    </rules>
+            </rules>
 </rules>

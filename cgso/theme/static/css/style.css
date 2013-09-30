@@ -25,6 +25,7 @@ body {
 #portal-globalnav, #portal-globalnav li a, #portal-globalnav .selected a:hover {
     background: #444;
     color: #fff;
+    font-size:18px;
 }
 
 #portal-globalnav .selected a, #portal-globalnav a:hover {
@@ -36,6 +37,7 @@ body {
 #portal-footer, #portal-footer a, #portal-footer a:hover {
     background: #444;
     color: #fff;
+    text-align: center;
 }
 
 #portal-footer-wrapper, #portal-footer-wrapper a, #portal-footer-wrapper a:hover {
